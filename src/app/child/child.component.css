@@ -1,0 +1,43 @@
+/* General Styles */
+.child-container, .parent-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #4caf50;
+    border-radius: 8px;
+    background-color: #f1f8e9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .child-container h3, .parent-container h2 {
+    font-size: 1.5rem;
+    color: #2e7d32;
+    margin-bottom: 15px;
+  }
+  
+  .child-container button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .child-container button:hover {
+    background-color: #388e3c;
+  }
+  
+  .parent-container p {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .app-child {
+    display: block;
+    margin-top: 20px;
+  }
+  
